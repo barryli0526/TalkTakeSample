@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>TalkTake</title>
+    <link href="/stylesheets/demo.css" rel="stylesheet"/>
+</head>
+<body>
+<div id="main">
+    <div id="header">
+        <div class="logo"></div>
+        <div class="socialBtn">
+            <ul>
+                <li class="webChat js-weixin">
+                    <div class="icon"></div>
+                    <span>WebChat</span>
+                </li>
+                <a href="http://weibo.com/2662391693/profile?topnav=1&wvr=6">
+                <li class="weibo">
+                    <div class="icon"></div>
+                    <span>Weibo</span>
+                </li>
+                </a>
+                <a href='mailto:sample@163.com'>
+                <li class="email">
+                    <div class="icon"></div>
+                    <span>Email</span>
+                </li>
+                    </a>
+            </ul>
+        </div>
+    </div>
+    <div id="body">
+        <div class="bg">
+            <img src="/img/bg1.jpg"/>
+            <img src="/img/bg2.jpg"/>
+            <img src="/img/bg3.jpg"/>
+            <img src="/img/bg4.jpg"/>
+            <img src="/img/bg5.jpg"/>
+        </div>
+        <div class="fixLayer logoV">
+            <div class="tLogo">
+            </div>
+            <div class="wLogo"></div>
+            <div class="version">
+                1.0 for ios
+            </div>
+        </div>
+
+        <div class="fixLayer phone">
+            <div class="iphone5s">
+                <!--<img src="/img/iPhone-5S-Gold.png"/>-->
+            </div>
+            <div class="snapshots">
+                <div class="item1" data-0="top:0px" data-966="top:-507px">
+                    <img src="/img/221.jpg"/>
+                </div>
+                <div class="item2" data-0="top:507px" data-966="top:0px" data-1832="top:-507px">
+                    <img src="/img/bg2.jpg"/>
+                </div>
+                <div class="item3" data-966="top:507px" data-1832="top:0px" data-2698="top:-507px">
+                    <img src="/img/bg3.jpg"/>
+                </div>
+                <div class="item4" data-1832="top:507px" data-2698="top:0px" data-3564="top:-507px">
+                    <img src="/img/bg4.jpg"/>
+                </div>
+                <div class="item5" data-2698="top:507px" data-3564="top:0px">
+                    <img src="/img/bg5.jpg"/>
+                </div>
+            </div>
+        </div>
+
+        <div class="fixLayer rightBtn">
+            <ul>
+                <li class="circle" data-0="background-color:white" data-966="background-color:transparent"></li>
+                <li class="circle" data-0="background-color:transparent" data-966="background-color:white" data-1832="background-color:transparent"></li>
+                <li class="circle" data-966="background-color:transparent" data-1832="background-color:white" data-2698="background-color:transparent"></li>
+                <li class="circle" data-1832="background-color:transparent" data-2698="background-color:white" data-3564="background-color:transparent"></li>
+                <li class="circle" data-2698="background-color:transparent" data-3564="background-color:white"></li>
+            </ul>
+        </div>
+
+        <div class="fixLayer download">
+            <!--<div class="box box1" data-0="top:0px" data-866="top:-866px">-->
+                <!--<h3>当我们在整理照片时,<br/>我们在整理什么</h3>-->
+            <!--</div>-->
+            <!--<div class="box box2" data-0="top:866px" data-866="top:0px">-->
+                <!--<h3>这是第二句话,<br/>我们在整理什么</h3>-->
+            <!--</div>-->
+            <!--<div class="box box3">-->
+                <!--<h3>这是第三句话,<br/>我们在整理什么</h3>-->
+            <!--</div>-->
+            <!--<div class="box box4">-->
+                <!--<h3>这是第四句话时,<br/>我们在整理什么</h3>-->
+            <!--</div>-->
+            <!--<div class="box box5">-->
+                <!--<h3>这是第五句话,<br/>我们在整理什么</h3>-->
+            <!--</div>-->
+            <div class="box box1">
+                <h3>当我们在整理照片时,<br/>我们在整理什么</h3>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+<div class="popup erweima js-popup" style="display: none;">
+
+
+    <div class="popup-box js-popup-box">
+
+        <i class="icon icon-close popup-close js-popup-close"></i>
+
+        <div class="popup-box-inner">
+
+
+            <p>
+                微信扫一扫
+            </p>
+
+
+        </div>
+
+
+    </div>
+
+
+</div>
+
+<script src="javascript/skrollr.min.js"></script>
+<script src="javascript/vendor/jquery-1.9.1.min.js"></script>
+<script type="text/javascript">
+
+    $(document).ready(function(){
+        skrollr.init();
+//       $(window).scroll(function(x,y){
+//           var $w = $(window);
+//           console.log($w.scrollTop());
+//           //console.log(y);
+//       })
+        var support3DTransform = false;
+        var attribute;
+        for (attribute in $("body")[0].style) {
+            if (attribute.toLowerCase().indexOf("perspective") !== -1 && attribute.toLowerCase().indexOf("webkit") === -1) {
+                support3DTransform = true;
+                $(".js-popup-box").addClass("popup-rotate-init");
+                break;
+            }
+        }
+
+        $(".js-popup, .js-popup-close").on("click", function(event) {
+            var target = event.target || event.srcElement;
+            if (target !== $(this)[0]){ return false;}
+
+            var self = $(this);
+            if ($(this).parents(".js-popup").length !== 0) {self = $(this).parents(".js-popup");}
+
+            if (support3DTransform) {
+                self.children(".js-popup-box").addClass("popup-rotate-out");
+                self.delay(500).fadeOut("fast", function() {
+                    self.children(".js-popup-box").removeClass("popup-rotate-in popup-rotate-out");
+                });
+            } else {
+                self.fadeOut("fast");
+            }
+
+            location.hash = "";
+        });
+
+        $(".js-weixin").on("click", function() {
+            var self = $(".js-popup.erweima");
+            if (support3DTransform) {
+                self.fadeIn("fast", function() {
+                    self.children(".js-popup-box").addClass("popup-rotate-in");
+                });
+            } else {
+                self.fadeIn("fast");
+            }
+        });
+    })
+
+
+</script>
+</body>
+</html>

@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="/stylesheets/main.css" rel="stylesheet"/>
+</head>
+<body>
+    <div class="navbar" id="main-header">
+        <div class="navbar-inner">
+            <div class="container-fluid">
+                <!--<div class="row">-->
+                    <!--<div class="col-md-3">-->
+                <a class="brand">
+                    <img alt="Talk Take" src="img/title.png"/>
+                </a>
+                    <!--</div>-->
+                    <!--<div class="col-md-8">-->
+                <ul class="hidden-xs navbar-nav pull-right">
+                    <li class="weixin">
+                        <a>
+                            <img src="/img/weixin.png"/>
+                            <span>&nbsp;&nbsp;Webchat</span></a>
+                    </li>
+                    <li class="weibo">
+                        <a href="http://weibo.com/u/5364784430" target="_blank">
+                            <img src="/img/weibo.png"/>
+                            <span>&nbsp;&nbsp;Weibo</span>
+                        </a>
+                    </li>
+                    <li class="email">
+                        <a href="mailto:tinfo@trbmail.com"><img src="/img/mail.png"/>&nbsp;&nbsp;Email</a>
+                    </li>
+                </ul>
+
+                <ul class="visible-xs-block navbar-nav pull-right">
+                    <li class="weixin">
+                        <a>
+                            <img src="/img/weixin.png"/>
+                        </a>
+                    </li>
+                    <li class="weibo">
+                        <a href="http://weibo.com/u/5364784430" target="_blank">
+                            <img src="/img/weibo.png"/>
+                        </a>
+                    </li>
+                    <li class="email">
+                        <a href="mailto:tinfo@trbmail.com"><img src="/img/mail.png"/></a>
+                    </li>
+                </ul>
+
+                <!--<div class="navbar-header visible-xs-block">-->
+                    <!--<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#t">-->
+                         <!--<span class="glyphicon glyphicon-align-justify"></span>-->
+                         <!--&lt;!&ndash;<span class="icon-bar"></span>&ndash;&gt;-->
+                         <!--&lt;!&ndash;<span class="icon-bar"></span>&ndash;&gt;-->
+
+                    <!--</button>-->
+                <!--</div>-->
+
+                    <!--</div>-->
+                <!--</div>-->
+            </div>
+        </div>
+    </div>
+
+    <div id="main">
+        <div class="container-fluid">
+            <div class="imageBox">
+                <img src="img/bg1.jpg">
+                <img src="img/bg2.jpg">
+                <img src="img/bg3.jpg">
+                <img src="img/bg4.jpg">
+                <img src="img/bg5.jpg">
+            </div>
+
+            <div class="logo">
+                <img src="img/Logo.png"/>
+            </div>
+
+            <div class="iPhone row">
+                <img src="/img/iPhone-5S-Gold.png" />
+                <!--<img src="/img/test.png" style="width:366px"/>-->
+                <div class="snapshots">
+
+                    <img src="img/slideshow1.jpg"/>
+                    <img src="img/slideshow2.jpg"/>
+                    <img src="img/slideshow3.jpg"/>
+                    <img src="img/slideshow4.jpg"/>
+                    <img src="img/slideshow5.jpg"/>
+                </div>
+            </div>
+
+            <div class="desBox">
+                <div class="word1">
+                    当我们在整理照片时，<br/>
+                    我们在整理什么？
+                </div>
+                <div class="word2">
+                    每个人心中都有一个艺术家
+                </div>
+                <div class="word3">
+                    水电费水电费
+                </div>
+                <div class="word4">
+                  薇薇冯文文威锋网
+                </div>
+                <div class="word5">
+                   可玩可可我看
+                </div>
+            </div>
+            <div class="text">
+                <span>下载TalkTake，开始整理你的照片。</span>
+            </div>
+            <div class="download">
+
+               <a href="https://itunes.apple.com/cn/app/talktake/id942853684?mt=8"><img src="/img/download.png"/></a>
+            </div>
+
+            <div class="rightBtn">
+                <ul>
+                    <li class="circle"></li>
+                    <li class="circle"></li>
+                    <li class="circle"></li>
+                    <li class="circle"></li>
+                    <li class="circle"></li>
+                </ul>
+            </div>
+
+        </div>
+
+        <!--<div class="container-fluid visible-xs-block">-->
+            <!--<img src="img/bg1.jpg"/>-->
+        <!--</div>-->
+
+    </div>
+
+    <div class="popup erweima js-popup" style="display: none;">
+
+
+        <div class="popup-box js-popup-box">
+
+            <i class="icon icon-close popup-close js-popup-close"></i>
+
+            <div class="popup-box-inner">
+
+
+                <p>
+                    微信扫一扫
+                </p>
+
+
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <!--<script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>-->
+    <script src="javascript/jquery-1.9.1.min.js"></script>
+    <script src="/vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="javascript/skrollr.min.js"></script>
+    <script src="javascript/main.js"></script>
+
+    <script type="text/javascript">
+
+        $(document).ready(function(){
+
+//            var len = $('.snapshots img').length,imageBoxLen = $('.imageBox img').length,
+//                    scorllHeight = $('.snapshots img').height();
+//
+//            var firstLoad = true;
+//
+//            function loadBox(){
+//
+//                var bodyLength =  (len+1)*scorllHeight+40;
+//                if(bodyLength<200){
+//                    bodyLength = 768;
+//                }
+//
+//                $('body').css('height',bodyLength);
+//
+//                var docHeight = $(window).height();
+//                //获取真实的大小
+//                scorllHeight = $('.snapshots img').height();
+//                //  console.log(scorllHeight);
+//
+//                $('.snapshots img').each(function(i,item){
+//
+//                    $(this).css('top',i*scorllHeight);
+//
+//                    $(this).attr('data-'+i*scorllHeight,'top:0px');
+//                    if(i>=1)
+//                        $(this).attr('data-'+(i-1)*scorllHeight,'top:'+scorllHeight+'px');
+//                    if(i<len-1)
+//                        $(this).attr('data-'+(i+1)*scorllHeight,'top:'+(0-scorllHeight)+'px');
+//                })
+//
+//                $('.desBox div').each(function(i,item){
+//
+//                    $(this).css('top',i*docHeight);
+//
+//                    $(this).attr('data-'+i*scorllHeight,'top:0px');
+//                    if(i>=1)
+//                        $(this).attr('data-'+(i-1)*scorllHeight,'top:'+docHeight+'px');
+//                    if(i<len-1)
+//                        $(this).attr('data-'+(i+1)*scorllHeight,'top:'+(0-docHeight)+'px;');
+//                })
+//
+//                $('.imageBox img').each(function(i, item){
+//
+//                    $(this).attr('data-'+i*scorllHeight,'display:block');
+//                    if(i>=1)
+//                        $(this).attr('data-'+(i-1)*scorllHeight,'display:none');
+//                    if(i<len-1)
+//                        $(this).attr('data-'+(i+1)*scorllHeight,'display:none');
+//                })
+//
+//                $('.circle').each(function(i, item){
+//
+//                    $(this).attr('data-'+i*scorllHeight,'background-color:white');
+//                    if(i>=1)
+//                        $(this).attr('data-'+(i-1)*scorllHeight,'background-color:transparent');
+//                    if(i<len-1)
+//                        $(this).attr('data-'+(i+1)*scorllHeight,'background-color:transparent');
+//                })
+//                skrollr.init();
+//            }
+//
+//            if(scorllHeight){
+//                loadBox();
+//            }else{
+//                $('.snapshots img').load(function(){
+//                    if(!firstLoad){
+//                        return;
+//                    }
+//                    firstLoad = true;
+//                    scorllHeight = $('.snapshots img').height();
+//                    loadBox();
+//                })
+//            }
+
+
+
+
+
+
+        });
+    </script>
+</body>
+</html>

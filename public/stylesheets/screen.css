@@ -1,0 +1,19 @@
+@media (max-width: 768px) {
+    #main .imageBox img{
+        height:100%;
+        width:auto;
+    }
+
+    .navbar-nav{
+        width:250px;
+    }
+
+    .navbar-nav li img{
+        margin-right:30px;
+    }
+}
+
+/* 中等屏幕（桌面显示器，大于等于 992px） */
+@media (min-width: 992px) {
+
+}

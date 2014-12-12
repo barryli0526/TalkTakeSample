@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <style>
+        body{
+            height:2000px;
+        }
+        .phone{
+            width:244px;
+            height:434px;
+            position:fixed;
+            overflow: hidden;
+        }
+        .test{
+            background-image:url('img/app.png');
+            width:244px;
+            height:434px;
+            position:absolute;
+            top:0px;
+            left:0px;
+        }
+        .test1{
+            background-image:url('img/app.png');
+            width:244px;
+            height:434px;
+            position:absolute;
+            background-position: 0,434px;
+            top:-434px;
+        }
+    </style>
+</head>
+<body>
+<div class="phone">
+<div class="test" data-0="top:0px" data-434="top:-434px;"></div>
+<div class="test1" data-0="top:434px" data-434="top:0px;"></div>
+    <!--ss-->
+    <!--<br/>-->
+    <!--<br/>-->
+    <!--<br/>-->
+    <!--<br/>-->
+    <!--<br/>-->
+    <!--<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>-->
+
+    <!--<div data-0="background-color:rgb(0,0,255);" data-500="background-color:rgb(255,0,0);">WOOOT</div>-->
+</div>
+
+<script src="javascript/skrollr.min.js"></script>
+<script type="text/javascript">
+    var s = skrollr.init();
+</script>
+</body>
+</html>

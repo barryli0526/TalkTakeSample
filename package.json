@@ -1,0 +1,12 @@
+{
+  "name": "dida",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app"
+  },
+  "dependencies": {
+    "express": "2.5.1",
+    "ejs": "0.8.0"
+  }
+}
