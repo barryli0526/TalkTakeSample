@@ -8,6 +8,14 @@
 
 $(document).ready(function(){
 
+
+    $('img').each(function(){
+        if($(this).attr('data-original-value')){
+            $(this).attr('src', $(this).attr('data-original-value'));
+        }
+    })
+
+
     var maxWidth = 1920,
         snapshotHeight = 515,
         len = $('.snapshots img').length;

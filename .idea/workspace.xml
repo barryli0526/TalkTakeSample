@@ -17,9 +17,9 @@
     <file path="/demo.html" changelist="9d3c0bb4-fff4-4069-bfff-6b1a5d442d95" time="1418200912098" ignored="false" />
     <file path="/demo.css" changelist="9d3c0bb4-fff4-4069-bfff-6b1a5d442d95" time="1418202728985" ignored="false" />
     <file path="E:/src/TalkTakeSD/TalkTake/dbHelper/photo.js" changelist="9d3c0bb4-fff4-4069-bfff-6b1a5d442d95" time="1418092636258" ignored="false" />
-    <file path="/home.html" changelist="9d3c0bb4-fff4-4069-bfff-6b1a5d442d95" time="1418370895138" ignored="false" />
+    <file path="/home.html" changelist="9d3c0bb4-fff4-4069-bfff-6b1a5d442d95" time="1418561358175" ignored="false" />
     <file path="/home.css" changelist="9d3c0bb4-fff4-4069-bfff-6b1a5d442d95" time="1418260130713" ignored="false" />
-    <file path="/main.js" changelist="9d3c0bb4-fff4-4069-bfff-6b1a5d442d95" time="1418372815547" ignored="false" />
+    <file path="/main.js" changelist="9d3c0bb4-fff4-4069-bfff-6b1a5d442d95" time="1418561042585" ignored="false" />
     <file path="/screen.css" changelist="9d3c0bb4-fff4-4069-bfff-6b1a5d442d95" time="1418373666004" ignored="false" />
     <file path="/tablet.css" changelist="9d3c0bb4-fff4-4069-bfff-6b1a5d442d95" time="1418373802250" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -44,16 +44,16 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="routes.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="routes.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="17" selection-start="196" selection-end="196" vertical-scroll-proportion="0.17097701">
+            <state line="21" column="80" selection-start="541" selection-end="541" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -80,7 +80,7 @@
       <file leaf-file-name="layout.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/layout.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -89,7 +89,7 @@
       <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="20" selection-start="497" selection-end="497" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -104,22 +104,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="home.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="46" selection-start="736" selection-end="758" vertical-scroll-proportion="-12.423077">
-              <folding>
-                <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state line="124" column="27" selection-start="4939" selection-end="4939" vertical-scroll-proportion="0.94925374">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="base.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/base.js">
+      <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/javascript/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="19" selection-start="188" selection-end="188" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="11" column="7" selection-start="199" selection-end="199" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#2772#4267#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -127,7 +127,7 @@
       <file leaf-file-name="test.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/test.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -153,12 +153,12 @@
         <option value="$PROJECT_DIR$/public/stylesheets/home.css" />
         <option value="$PROJECT_DIR$/public/stylesheets/blur.svg" />
         <option value="E:/src/qrCode/app.js" />
-        <option value="$PROJECT_DIR$/public/javascript/main.js" />
         <option value="$PROJECT_DIR$/public/stylesheets/screen.css" />
         <option value="$PROJECT_DIR$/public/stylesheets/tablet.css" />
-        <option value="$PROJECT_DIR$/views/home.html" />
         <option value="$PROJECT_DIR$/public/stylesheets/main.css" />
         <option value="$PROJECT_DIR$/routes.js" />
+        <option value="$PROJECT_DIR$/public/javascript/main.js" />
+        <option value="$PROJECT_DIR$/views/home.html" />
       </list>
     </option>
   </component>
@@ -194,6 +194,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -268,13 +269,30 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascript" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TalkTakeWeb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TalkTakeWeb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="config" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -325,7 +343,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -408,46 +426,27 @@
   <component name="editorHistoryManager">
     <entry file="file://E:/src/QNDemo/views/test.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="84" selection-start="851" selection-end="851" vertical-scroll-proportion="0.543379">
-          <folding />
-        </state>
+        <state line="21" column="84" selection-start="851" selection-end="851" vertical-scroll-proportion="0.543379" />
       </provider>
     </entry>
     <entry file="file://E:/src/qrCode/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="30" selection-start="429" selection-end="429" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="17" column="30" selection-start="429" selection-end="429" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/demo.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="75" column="146" selection-start="2729" selection-end="2740" vertical-scroll-proportion="-7.1923075">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/javascript/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="66" selection-start="599" selection-end="599" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#2603#4098#0" expanded="false" />
-          </folding>
-        </state>
+        <state line="75" column="146" selection-start="2729" selection-end="2740" vertical-scroll-proportion="-7.1923075" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/stylesheets/demo.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="18" selection-start="193" selection-end="193" vertical-scroll-proportion="42.84">
-          <folding />
-        </state>
+        <state line="12" column="18" selection-start="193" selection-end="193" vertical-scroll-proportion="42.84" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/stylesheets/tablet.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="24" selection-start="56" selection-end="56" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="4" column="24" selection-start="56" selection-end="56" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/base.js">
@@ -499,25 +498,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/home.html">
+    <entry file="file://$PROJECT_DIR$/routes.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="46" selection-start="736" selection-end="758" vertical-scroll-proportion="-12.423077">
+        <state line="21" column="80" selection-start="541" selection-end="541" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/javascript/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="7" selection-start="199" selection-end="199" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#2772#4267#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="20" selection-start="497" selection-end="497" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes.js">
+    <entry file="file://$PROJECT_DIR$/views/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="17" selection-start="196" selection-end="196" vertical-scroll-proportion="0.17097701">
+        <state line="124" column="27" selection-start="4939" selection-end="4939" vertical-scroll-proportion="0.94925374">
           <folding />
         </state>
       </provider>

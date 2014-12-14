@@ -31,7 +31,7 @@ module.exports = function (app) {
 //        if (/Windows NT/.test(ua))
 //            $.Windows = /Windows NT ([0-9\._]+)[\);]/.exec(ua)[1];
         console.log(req.headers['user-agent']);
-        console.log($);
+//        console.log($);
         return next();
     })
 
