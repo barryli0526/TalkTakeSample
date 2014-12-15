@@ -43,12 +43,12 @@ module.exports = function (app) {
       });
   })
 
-//    app.get('/test', function(req, res){
-//
-//        res.render('test',{
-//            layout:null
-//        });
-//    })
+    app.get('/test', function(req, res){
+
+        res.render('test',{
+            layout:null
+        });
+    })
 //
 //    app.get('/demo', function(req, res){
 //

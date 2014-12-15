@@ -1,53 +1,341 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh-CN">
 <head>
-    <title></title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="/stylesheets/dev.css" rel="stylesheet"/>
+
     <style>
-        body{
-            height:2000px;
-        }
-        .phone{
-            width:244px;
-            height:434px;
-            position:fixed;
-            overflow: hidden;
-        }
-        .test{
-            background-image:url('img/app.png');
-            width:244px;
-            height:434px;
-            position:absolute;
-            top:0px;
-            left:0px;
-        }
-        .test1{
-            background-image:url('img/app.png');
-            width:244px;
-            height:434px;
-            position:absolute;
-            background-position: 0,434px;
-            top:-434px;
-        }
+
     </style>
 </head>
 <body>
-<div class="phone">
-<div class="test" data-0="top:0px" data-434="top:-434px;"></div>
-<div class="test1" data-0="top:434px" data-434="top:0px;"></div>
-    <!--ss-->
-    <!--<br/>-->
-    <!--<br/>-->
-    <!--<br/>-->
-    <!--<br/>-->
-    <!--<br/>-->
-    <!--<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>-->
+<div class="navbar" id="main-header">
+    <!--<div class="navbar-inner">-->
+        <div class="container-fluid">
+            <!--<div class="row">-->
+            <!--<div class="col-md-3">-->
+            <a class="brand hidden-xs">
+                <img alt="Talk Take" src="img/title.png"/>
+            </a>
 
-    <!--<div data-0="background-color:rgb(0,0,255);" data-500="background-color:rgb(255,0,0);">WOOOT</div>-->
+            <a style="background-image:url('img/Logo.png');background-size:200px;width:100px;height:80px;background-position-x:-35px;" class="visible-xs-inline-block brand">
+
+            </a>
+            <!--</div>-->
+            <!--<div class="col-md-8">-->
+            <ul class="hidden-xs navbar-nav pull-right">
+                <li class="weixin">
+                    <a>
+                        <img src="/img/weixin.png"/>
+                        <span>&nbsp;&nbsp;Webchat</span></a>
+                </li>
+                <li class="weibo">
+                    <a href="http://weibo.com/u/5364784430" target="_blank">
+                        <img src="/img/weibo.png"/>
+                        <span>&nbsp;&nbsp;Weibo</span>
+                    </a>
+                </li>
+                <li class="email">
+                    <a href="mailto:tinfo@trbmail.com"><img src="/img/mail.png"/>&nbsp;&nbsp;Email</a>
+                </li>
+            </ul>
+
+            <ul class="visible-xs-inline-block navbar-nav pull-right">
+                <li class="weixin">
+                    <a>
+                        <img src="/img/weixin.png"/>
+                    </a>
+                </li>
+                <li class="weibo">
+                    <a href="http://weibo.com/u/5364784430" target="_blank">
+                        <img src="/img/weibo.png"/>
+                    </a>
+                </li>
+                <li class="email">
+                    <a href="mailto:tinfo@trbmail.com"><img src="/img/mail.png"/></a>
+                </li>
+            </ul>
+
+            <!--<div class="navbar-header visible-xs-block">-->
+            <!--<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#t">-->
+            <!--<span class="glyphicon glyphicon-align-justify"></span>-->
+            <!--&lt;!&ndash;<span class="icon-bar"></span>&ndash;&gt;-->
+            <!--&lt;!&ndash;<span class="icon-bar"></span>&ndash;&gt;-->
+
+            <!--</button>-->
+            <!--</div>-->
+
+            <!--</div>-->
+            <!--</div>-->
+        </div>
+    </div>
+<!--</div>-->
+
+<div id="main">
+    <div class="container-fluid">
+        <div class="imageBox">
+            <!--<img src="img/bg1-1.jpg" data-original-value="img/bg1.jpg">-->
+            <!--<img src="img/bg1.jpg" data-original-value="img/bg2.jpg">-->
+            <!--<img src="img/bg1.jpg" data-original-value="img/bg3.jpg">-->
+            <!--<img src="img/bg1.jpg" data-original-value="img/bg4.jpg">-->
+            <!--<img src="img/bg1.jpg" data-original-value="img/bg5.jpg">-->
+            <div class="item1" style="background-image:url('img/bg1-m.jpg')"></div>
+            <div class="item2" style="background-image:url('img/bg2-m.jpg')"></div>
+            <div class="item3" style="background-image:url('img/bg3-m.jpg')"></div>
+            <div class="item4" style="background-image:url('img/bg4-m.jpg')"></div>
+            <div class="item5" style="background-image:url('img/bg5-m.jpg')"></div>
+        </div>
+
+        <div class="logo">
+            <img src="img/Logo.png"/>
+        </div>
+
+        <div class="iPhone row">
+            <img src="/img/iPhone-5S-Gold.png" />
+            <!--<img src="/img/test.png" style="width:366px"/>-->
+            <div class="snapshots">
+
+                <img src="img/slideshow1.jpg" />
+                <img src="img/slideshow1.jpg" data-original-value="img/slideshow2.jpg"/>
+                <img src="img/slideshow1.jpg" data-original-value="img/slideshow3.jpg"/>
+                <img src="img/slideshow1.jpg" data-original-value="img/slideshow4.jpg"/>
+                <img src="img/slideshow1.jpg" data-original-value="img/slideshow5.jpg"/>
+            </div>
+        </div>
+
+        <div class="desBox">
+            <div class="word1">
+                当我们在整理照片时，<br/>
+                我们在整理什么？
+            </div>
+            <div class="word2">
+                每个人心中都有一个艺术家
+            </div>
+            <div class="word3">
+                水电费水电费
+            </div>
+            <div class="word4">
+                薇薇冯文文威锋网
+            </div>
+            <div class="word5">
+                可玩可可我看
+            </div>
+        </div>
+        <div class="text">
+            <span>下载TalkTake，开始整理你的照片。</span>
+        </div>
+        <div class="download">
+
+            <a href="https://itunes.apple.com/cn/app/talktake/id942853684?mt=8"><img src="/img/download.png"/></a>
+        </div>
+
+        <div class="rightBtn">
+            <ul>
+                <li class="circle"></li>
+                <li class="circle"></li>
+                <li class="circle"></li>
+                <li class="circle"></li>
+                <li class="circle"></li>
+            </ul>
+        </div>
+
+    </div>
+
+    <!--<div class="container-fluid visible-xs-block">-->
+    <!--<img src="img/bg1.jpg"/>-->
+    <!--</div>-->
+
 </div>
 
+<div class="popup erweima js-popup" style="display: none;">
+
+
+    <div class="popup-box js-popup-box">
+
+        <i class="icon icon-close popup-close js-popup-close"></i>
+
+        <div class="popup-box-inner">
+
+
+            <p>
+                微信扫一扫
+            </p>
+
+
+        </div>
+
+
+    </div>
+
+
+</div>
+
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
+<!--<script src="javascript/jquery-1.9.1.min.js"></script>-->
+<script src="/vendor/bootstrap/js/bootstrap.min.js"></script>
 <script src="javascript/skrollr.min.js"></script>
+<!--<script src="javascript/main.js"></script>-->
+
 <script type="text/javascript">
-    var s = skrollr.init();
+
+    $(document).ready(function(){
+        $(document).ready(function(){
+
+
+            $('img').each(function(){
+                if($(this).attr('data-original-value')){
+                    $(this).attr('src', $(this).attr('data-original-value'));
+                }
+            })
+
+
+            var maxWidth = 1920,
+                    snapshotHeight = 515,
+                    len = $('.snapshots img').length;
+
+            var currentWindow = $(window).width(),
+                    currentHeight = $(window).height();
+
+//    var percent = currentWindow/maxWidth;
+//    console.log(0.2088*770*0.658) ;
+//    console.log(((0.2088*currentWindow/444)*770)*0.658) ;
+//    var scrollHeight = snapshotHeight*percent;
+
+            if(currentWindow < 768){
+                var scrollHeight = ((0.4088*currentWindow/444)*770)*0.658;
+            }else{
+                var scrollHeight = ((0.2088*currentWindow/444)*770)*0.658;
+            }
+
+            console.log(scrollHeight);
+
+            function InitScroll(height, windowHeight){
+               // var bodyHeight =  (len+1)*height+40;
+                var bodyHeight = (len-1) * height;
+             //   bodyHeight = (bodyHeight > currentHeight) ? bodyHeight : (currentHeight+bodyHeight)
+                bodyHeight += currentHeight;
+
+                var actualHeight = parseInt(height);
+                if(bodyHeight<200){
+                    bodyHeight = 768;
+                }
+
+                $('body').css('height',bodyHeight);
+
+                windowHeight = windowHeight ? windowHeight : $(window).height();
+                //获取真实的大小
+                // scorllHeight = $('.snapshots img').height();
+                //  console.log(scorllHeight);
+
+                $('.snapshots img').each(function(i){
+
+                    $(this).css('top',i*actualHeight);
+
+                    $(this).attr('data-'+i*actualHeight,'top:0px');
+                    if(i>=1)
+                        $(this).attr('data-'+(i-1)*actualHeight,'top:'+actualHeight+'px');
+                    if(i<len-1)
+                        $(this).attr('data-'+(i+1)*actualHeight,'top:'+(0-actualHeight)+'px');
+                })
+
+                $('.desBox div').each(function(i,item){
+
+                    $(this).css('top',i*windowHeight);
+
+                    $(this).attr('data-'+i*actualHeight,'top:0px');
+                    if(i>=1)
+                        $(this).attr('data-'+(i-1)*actualHeight,'top:'+windowHeight+'px');
+                    if(i<len-1)
+                        $(this).attr('data-'+(i+1)*actualHeight,'top:'+(0-windowHeight)+'px;');
+                })
+
+                $('.imageBox div').each(function(i, item){
+
+                    $(this).attr('data-'+i*actualHeight,'display:block');
+                    if(i>=1)
+                        $(this).attr('data-'+(i-1)*actualHeight,'display:none');
+                    if(i<len-1)
+                        $(this).attr('data-'+(i+1)*actualHeight,'display:none');
+                })
+
+                $('.circle').each(function(i, item){
+
+                    $(this).attr('data-'+i*actualHeight,'background-color:white');
+                    if(i>=1)
+                        $(this).attr('data-'+(i-1)*actualHeight,'background-color:transparent');
+                    if(i<len-1)
+                        $(this).attr('data-'+(i+1)*actualHeight,'background-color:transparent');
+                })
+                skrollr.init({
+                    edgeStrategy: 'set' ,
+                    vibrate: function(p) {
+                        return Math.sin(p * 10 * Math.PI);
+                    }
+                });
+            }
+
+
+            function InitWXPopUp(){
+                var support3DTransform = false;
+                var attribute;
+                for (attribute in $("body")[0].style) {
+                    if (attribute.toLowerCase().indexOf("perspective") !== -1 && attribute.toLowerCase().indexOf("webkit") === -1) {
+                        support3DTransform = true;
+                        $(".js-popup-box").addClass("popup-rotate-init");
+                        break;
+                    }
+                }
+
+                $(".js-popup, .js-popup-close").on("click", function(event) {
+                    var target = event.target || event.srcElement;
+                    if (target !== $(this)[0]){ return false;}
+
+                    var self = $(this);
+                    if ($(this).parents(".js-popup").length !== 0) {self = $(this).parents(".js-popup");}
+
+                    if (support3DTransform) {
+                        self.children(".js-popup-box").addClass("popup-rotate-out");
+                        self.delay(500).fadeOut("fast", function() {
+                            self.children(".js-popup-box").removeClass("popup-rotate-in popup-rotate-out");
+                        });
+                    } else {
+                        self.fadeOut("fast");
+                    }
+
+                    location.hash = "";
+                });
+
+                $(".weixin").on("click", function() {
+                    var self = $(".js-popup.erweima");
+                    if (support3DTransform) {
+                        self.fadeIn("fast", function() {
+                            self.children(".js-popup-box").addClass("popup-rotate-in");
+                        });
+                    } else {
+                        self.fadeIn("fast");
+                    }
+                });
+            }
+
+            InitScroll(scrollHeight, currentHeight);
+
+            InitWXPopUp();
+
+//    var config = {
+//        title:{
+//            width:292,
+//            height:515
+//        }
+//    }
+
+        })
+
+    });
 </script>
 </body>
 </html>

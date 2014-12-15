@@ -24,12 +24,20 @@ $(document).ready(function(){
         currentHeight = $(window).height();
 
 //    var percent = currentWindow/maxWidth;
-    console.log(currentHeight);
 //    console.log(0.2088*770*0.658) ;
 //    console.log(((0.2088*currentWindow/444)*770)*0.658) ;
 //    var scrollHeight = snapshotHeight*percent;
+    var isMobile = (function() {
+        return (/Android|iPhone|iPad|iPod|BlackBerry/i).test(navigator.userAgent || navigator.vendor || window.opera);
+    })();
+    if(isMobile || currentWindow < 768){
+        var scrollHeight = ((0.4088*currentWindow/444)*770)*0.658;
+    }else{
+        var scrollHeight = ((0.2088*currentWindow/444)*770)*0.658;
+    }
 
-    var scrollHeight = ((0.2088*currentWindow/444)*770)*0.658;
+
+    console.log(scrollHeight);
 
     function InitScroll(height, windowHeight){
         var bodyHeight =  (len+1)*height+40;
@@ -67,7 +75,7 @@ $(document).ready(function(){
                 $(this).attr('data-'+(i+1)*actualHeight,'top:'+(0-windowHeight)+'px;');
         })
 
-        $('.imageBox img').each(function(i, item){
+        $('.imageBox div').each(function(i, item){
 
             $(this).attr('data-'+i*actualHeight,'display:block');
             if(i>=1)
@@ -137,8 +145,5 @@ $(document).ready(function(){
 //    var config = {
 //        title:{
 //            width:292,
-//            height:515
-//        }
-//    }
-
-})
+//            heig
+});
