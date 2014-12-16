@@ -113,7 +113,7 @@
       <file leaf-file-name="dev.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/stylesheets/dev.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="150" column="25" selection-start="2571" selection-end="2571" vertical-scroll-proportion="0.6846715">
+            <state line="102" column="2" selection-start="1290" selection-end="1335" vertical-scroll-proportion="0.33333334">
               <folding />
             </state>
           </provider>
@@ -550,7 +550,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/stylesheets/dev.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="150" column="25" selection-start="2571" selection-end="2571" vertical-scroll-proportion="0.6846715">
+        <state line="102" column="2" selection-start="1290" selection-end="1335" vertical-scroll-proportion="0.33333334">
           <folding />
         </state>
       </provider>
