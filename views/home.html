@@ -78,11 +78,11 @@
             <!--<img src="img/bg1.jpg" data-original-value="img/bg3.jpg">-->
             <!--<img src="img/bg1.jpg" data-original-value="img/bg4.jpg">-->
             <!--<img src="img/bg1.jpg" data-original-value="img/bg5.jpg">-->
-            <div class="item1" style="background-image:url('img/bg1-m.jpg')"></div>
+            <div class="item1 active first" style="background-image:url('img/bg1-m.jpg')"></div>
             <div class="item2" style="background-image:url('img/bg2-m.jpg')"></div>
             <div class="item3" style="background-image:url('img/bg3-m.jpg')"></div>
             <div class="item4" style="background-image:url('img/bg4-m.jpg')"></div>
-            <div class="item5" style="background-image:url('img/bg5-m.jpg')"></div>
+            <div class="item5 last" style="background-image:url('img/bg5-m.jpg')"></div>
         </div>
 
         <div class="logo">
@@ -94,21 +94,21 @@
             <!--<img src="/img/test.png" style="width:366px"/>-->
             <div class="snapshots">
 
-                <img src="img/slideshow1.jpg" />
-                <img src="img/slideshow1.jpg" data-original-value="img/slideshow2.jpg"/>
+                <img class="active" src="img/slideshow1.jpg" />
+                <img  src="img/slideshow1.jpg" data-original-value="img/slideshow2.jpg"/>
                 <img src="img/slideshow1.jpg" data-original-value="img/slideshow3.jpg"/>
                 <img src="img/slideshow1.jpg" data-original-value="img/slideshow4.jpg"/>
-                <img src="img/slideshow1.jpg" data-original-value="img/slideshow5.jpg"/>
+                <img class="beforeActive last" src="img/slideshow1.jpg" data-original-value="img/slideshow5.jpg"/>
             </div>
         </div>
 
         <div class="desBox">
-            <div class="word1">
+            <div class="word1 active">
                 当我们在整理照片时，<br/>
                 我们在整理什么？
             </div>
             <div class="word2">
-                每个人心中都有一个艺术家
+                每个人心中<br/>都有一个艺术家
             </div>
             <div class="word3">
                 水电费水电费
@@ -116,7 +116,7 @@
             <div class="word4">
                 薇薇冯文文威锋网
             </div>
-            <div class="word5">
+            <div class="word5 last beforeActive">
                 可玩可可我看
             </div>
         </div>
@@ -130,7 +130,7 @@
 
         <div class="rightBtn">
             <ul>
-                <li class="circle"></li>
+                <li class="circle active"></li>
                 <li class="circle"></li>
                 <li class="circle"></li>
                 <li class="circle"></li>
@@ -174,7 +174,9 @@
     <!--<script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>-->
     <script src="javascript/jquery-1.9.1.min.js"></script>
     <script src="/vendor/bootstrap/js/bootstrap.min.js"></script>
+    <!--<script src="//code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>-->
     <script src="javascript/skrollr.min.js"></script>
+<script src="javascript/ww.js"></script>
     <script src="javascript/main.js"></script>
 
     <script type="text/javascript">

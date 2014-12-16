@@ -361,13 +361,15 @@ li.weibo span{
 
     #main .desBox{
         position:fixed;
-        left:10.61%;
+        /*left:10.61%;*/
+        left:0px;
         /*top:300px;*/
         top:20%;
     }
 
     #main .desBox div{
         font-size:28px;
+        text-align: center;
     }
 
     #main .logo{
@@ -398,6 +400,19 @@ li.weibo span{
         left:16.1%;
         z-index:0;
         overflow: hidden;
+    }
+
+
+    .imageBox div{
+        display:none;
+    }
+
+    .imageBox div.active{
+        display:block;
+    }
+
+    .rightBtn .active{
+        background-color:white;
     }
 
 }
