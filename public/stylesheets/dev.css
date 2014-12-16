@@ -140,6 +140,14 @@ li.weibo span{
     z-index: 0;
 }
 
+#main .imageBox .item1{
+    background-image:url('/img/bg1-m.jpg')
+}
+
+#main .imageBox .item4{
+    background-image:url('/img/bg5-m.jpg')
+}
+
 #main .logo{
     position:fixed;
     width:14.84%;
@@ -309,6 +317,14 @@ li.weibo span{
         width:auto;
     }
 
+    #main .imageBox .item1{
+        background-image:url('/img/bg1-phone.jpg')
+    }
+
+    #main .imageBox .item4{
+        background-image:url('/img/bg5-phone.jpg')
+    }
+
     #main-header .navbar-nav{
         width:200px;
         margin-top:20px;
@@ -369,12 +385,13 @@ li.weibo span{
 
     #main .desBox div{
         font-size:28px;
+        width:325px;
         text-align: center;
     }
 
     #main .logo{
         position:fixed;
-        width:14.84%;
+        width:18.84%;
         min-width:100px;
         left:8.24%;
         /*top:290px;*/
@@ -413,6 +430,10 @@ li.weibo span{
 
     .rightBtn .active{
         background-color:white;
+    }
+
+    .erweima.popup .popup-box .popup-box-inner{
+        width:314px;
     }
 
 }
