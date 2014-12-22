@@ -1,0 +1,126 @@
+/**超小屏幕，手机**/
+@media (max-width: 768px) {
+    /*开始调整头部*/
+
+    #main-header {
+        height:50px;
+    }
+
+    #main-header .container-fluid{
+        margin-top:0px;
+    }
+
+    #main-header .brand{
+        display:inline-block;
+        margin-top:15px;
+    }
+
+    #main-header .brand img{
+        height:12px;
+    }
+
+    #main-header .navbar-nav{
+        width:160px;
+        margin-top:15px;
+    }
+
+    #main-header .navbar-nav li{
+        display:inline-block;
+        min-width:30px;
+        margin-right:0px;
+    }
+
+    #main-header .navbar-nav li img{
+        width:16px;
+        margin-right:30px;
+    }
+    /*头部调整结束*/
+
+    /*背景大图片调整*/
+    #main .imageBox img{
+        height:100%;
+        width:auto;
+    }
+
+    #main .imageBox .item1{
+        background-image:url('/img/bg1-phone.jpg')
+    }
+
+    #main .imageBox .item4{
+        background-image:url('/img/bg5-m.jpg')
+    }
+
+    /*结束背景大图片调整*/
+
+    /*test*/
+    #main .download{
+        position:fixed;
+        width:10.48%;
+        min-width:150px;
+        left:26.61%;
+        bottom:0px;
+    }
+
+    #main .text{
+        position:fixed;
+        left:20.61%;
+        color:white;
+        font-family:'STSong KaiTi 微软雅黑';
+        font-size:12px;
+        font-weight:800;
+        bottom:12%;
+    }
+
+
+    #main .desBox{
+        position:fixed;
+        left:0px;
+        top:75%;
+        /*bottom:0%;*/
+    }
+
+    #main .desBox div{
+        font-size:20px;
+        width:325px;
+        text-align: center;
+    }
+
+    #main .iPhone{
+        position:fixed;
+        /*width:330px;*/
+        width:65%;
+        /*min-height:300px;*/
+        left:23%;
+        /*top:164px;*/
+        top:14%;
+        z-index: 999;
+    }
+
+    #main .iPhone .snapshots{
+        width:64.3%;
+        height:65.8%;
+        position:absolute;
+        top:13.1%;
+        left:16.1%;
+        z-index:0;
+        overflow: hidden;
+    }
+
+
+    .imageBox div{
+        display:none;
+    }
+
+    .imageBox div.active{
+        display:block;
+    }
+
+    .rightBtn .active{
+        background-color:white;
+    }
+
+    .erweima.popup .popup-box .popup-box-inner{
+        width:314px;
+    }
+
+}
