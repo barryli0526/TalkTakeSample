@@ -8,7 +8,8 @@
 
 (function () {
 // initializes touch and scroll events
-    var supportTouch = $.support.touch,
+//    var supportTouch = $.support.touch,
+    var supportTouch = true,
         scrollEvent = "touchmove scroll",
         touchStartEvent = supportTouch ? "touchstart" : "mousedown",
         touchStopEvent = supportTouch ? "touchend" : "mouseup",

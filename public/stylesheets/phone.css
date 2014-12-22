@@ -88,11 +88,11 @@
     #main .iPhone{
         position:fixed;
         /*width:330px;*/
-        width:65%;
+        width:50%;
         /*min-height:300px;*/
-        left:23%;
+        left:32%;
         /*top:164px;*/
-        top:14%;
+        top:16%;
         z-index: 999;
     }
 

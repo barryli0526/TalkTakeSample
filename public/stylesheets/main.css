@@ -1,6 +1,6 @@
 body{
     font: 14px/1 Tahoma,Helvetica,Arial,"\5b8b\4f53",sans-serif;
-    height:1000px;
+    /*height:1000px;*/
 }
 
 ul, li{
@@ -308,4 +308,40 @@ li.weibo span{
     background-repeat: no-repeat;
     background-position-x: center;
     background-position-y: 40px;
+}
+
+
+
+@media (min-width:768px){
+    #main .download{
+        position:fixed;
+        width:10.48%;
+        min-width:150px;
+        left:56.61%;
+        /*top:495px;*/
+        top:65%;
+    }
+
+    #main .text{
+        position:fixed;
+        left:56.61%;
+        /*top:455px;*/
+        top:60%;
+        color:white;
+        font-family:'STSong KaiTi 微软雅黑';
+        font-size:16px;
+        font-weight:800;
+    }
+
+}
+
+/* 小屏幕（平板，大于等于 768px） */
+@media (min-width: 768px) and (max-width:992px) {
+    #main .desBox div{
+        font-size:24px;
+    }
+
+    #main .text{
+        font-size:14px;
+    }
 }
