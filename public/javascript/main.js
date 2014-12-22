@@ -31,7 +31,7 @@ $(document).ready(function(){
         return (/Android|iPhone|iPad|iPod|BlackBerry/i).test(navigator.userAgent || navigator.vendor || window.opera);
     })();
     if(isMobile || currentWindow < 768){
-        var scrollHeight = ((0.4088*currentWindow/444)*770)*0.658;
+        var scrollHeight = ((0.65*currentWindow/444)*770)*0.658;
     }else{
         var scrollHeight = ((0.2088*currentWindow/444)*770)*0.658;
     }
@@ -138,7 +138,7 @@ $(document).ready(function(){
         });
     }
 
-    if(!isMobile){
+    if(isMobile){
         InitScroll(scrollHeight, currentHeight);
     }else{
         InitPositionForMobile(scrollHeight, currentHeight);

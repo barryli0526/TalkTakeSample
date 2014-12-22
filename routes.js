@@ -43,6 +43,13 @@ module.exports = function (app) {
       });
   })
 
+    app.get('/index', function(req, res){
+
+        res.render('index',{
+            layout:null
+        });
+    })
+
     app.get('/test', function(req, res){
 
         res.render('test',{
